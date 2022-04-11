@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    padding: 0px 30px;
+}
+.intro{
+    display:flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 38px;
+}
+p{
+    padding: 20px 0px;
+    font-size: 25px;
+}
+/* Step 1 */
+.step1,.step2,.step3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+/* Step 2 */
+.figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+figcaption{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    width: 50vw;
+    
+}
+span{
+    color: green;
+    font-size:30px;
+    background-color: yellow;
+}
