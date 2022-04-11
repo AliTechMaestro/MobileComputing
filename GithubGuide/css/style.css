@@ -25,7 +25,7 @@ p{
     font-size: 25px;
 }
 /* Step 1 */
-.step1,.step2,.step3{
+.step1,.step2,.step3,.step4,.step5{
     display: flex;
     justify-content: center;
     margin: 20px 0px;
@@ -45,6 +45,12 @@ figcaption{
 img{
     width: 50vw;
     
+}
+
+.step5 span{
+    color: blue;
+    background-color: unset;
+    font-size: 22px;
 }
 span{
     color: green;
